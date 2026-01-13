@@ -2,17 +2,6 @@ This project is based on the "diamonds" dataset with 50,000+ diamonds and invest
 
 Read the full research paper [here](https://github.com/LucaCallus/Diamond-Price-Statistical-Analysis/blob/e02aa6b3c49f43758c37c0d1ad4e8db19e919a8a/Hypothesis%20Testing%20and%20Statistical%20Modelling%20on%20Diamonds.pdf)
 
-<table>
-  <tr>
-    <td><img src="Media/histogram%20of%20price.png" alt="Histogram of Price" width="100%"></td>
-    <td><img src="Media/clustered%20bar%20chart%20price%20by%20carat%20and%20clarity.png" alt="Clustered Bar Chart" width="100%"></td>
-  </tr>
-  <tr>
-    <td><img src="Media/scatter%20plot%20price%20carat.png" alt="Scatter Plot" width="100%"></td>
-    <td><img src="Media/pie%20chart%20of%20cut.png" alt="Pie Chart" width="100%"></td>
-  </tr>
-</table>
-
 ## Key Research Phases
 
 ### 1. Exploratory Data Analysis (EDA)
@@ -28,6 +17,17 @@ Read the full research paper [here](https://github.com/LucaCallus/Diamond-Price-
 * **Multiple Linear Regression:** Built a model to predict diamond prices based on multiple independent variables
 * **ANCOVA:** Performed Analysis of Covariance to understand the interaction between categorical attributes and continuous variables (Carat)
 * **Model Validation:** Checked for multicollinearity (VIF), homoscedasticity, and residual normality among others
+
+<table>
+  <tr>
+    <td><img src="Media/histogram%20of%20price.png" alt="Histogram of Price" width="100%"></td>
+    <td><img src="Media/clustered%20bar%20chart%20price%20by%20carat%20and%20clarity.png" alt="Clustered Bar Chart" width="100%"></td>
+  </tr>
+  <tr>
+    <td><img src="Media/scatter%20plot%20price%20carat.png" alt="Scatter Plot" width="100%"></td>
+    <td><img src="Media/pie%20chart%20of%20cut.png" alt="Pie Chart" width="100%"></td>
+  </tr>
+</table>
 
 ## Tech Stack
 * **Language:** R
